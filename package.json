@@ -1,0 +1,27 @@
+{
+  "name": "candlewyck-diner-website",
+  "version": "1.0.0",
+  "description": "High-converting website for Candlewyck Diner with reservation system",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "cd client && npm run build",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "diner",
+    "restaurant",
+    "reservation",
+    "website"
+  ],
+  "author": "",
+  "license": "ISC"
+}
